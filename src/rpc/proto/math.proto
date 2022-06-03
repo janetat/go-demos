@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package="lyj.com/demo/proto";
+
+service Math {
+  rpc Max (stream Request) returns (stream Response) {}
+}
+
+message Request {
+  int32 num = 1;
+}
+
+message Response {
+  int32 result = 1;
+}
