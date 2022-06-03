@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	mypackage.New()
+	mypackage.New1()
 	fmt.Println("main")
 }

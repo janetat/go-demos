@@ -2,6 +2,6 @@ package mypackage
 
 import "fmt"
 
-func New() {
-	fmt.Println("mypackage.New")
+func New1() {
+	fmt.Println("mypackage.New1")
 }
