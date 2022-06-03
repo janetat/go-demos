@@ -1,0 +1,6 @@
+all: main 
+
+main:
+	@echo "Building main.go"
+	go build -o ../dist/mypackage/main \
+		github.com/janetat/go-demos/src/mypackage/example
